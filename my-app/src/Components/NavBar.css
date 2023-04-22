@@ -1,0 +1,22 @@
+#logo {
+    text-decoration: none;
+    align-items: center;
+    top: 40px;
+}
+
+#navbar {
+    width: 100%;
+    height: 80px;
+    vertical-align: center;
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.links {
+    text-decoration: none;
+    margin-left: 20px;
+}
