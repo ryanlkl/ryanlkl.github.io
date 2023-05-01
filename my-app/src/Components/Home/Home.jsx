@@ -14,7 +14,7 @@ export default function Home() {
                     <li>Aspiring Software Engineer</li>
                     <li>Freelance Video Editor</li>
                 </ul>
-                <button><Link className="links" to='contact'>Contact Me</Link></button>
+                <Link className="links" to='contact'><button className='contact-button'>Contact Me</button></Link>
             </div>
         </>
     )

@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import Editing from './Components/Editing';
-import NavBar from './Components/NavBar';
+import NavBar from './Components/NavBar/NavBar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {

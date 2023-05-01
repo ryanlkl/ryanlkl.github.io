@@ -1,7 +1,19 @@
+.navbar {
+    display: flex;
+    align-items: start;
+}
+
 #logo {
     text-decoration: none;
     align-items: center;
     top: 40px;
+    font-size: 35px;
+    color:rgb(172, 172, 172);
+    font-weight: 700;
+}
+
+#logo strong {
+    color: white;
 }
 
 #navbar {
