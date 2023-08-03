@@ -1,0 +1,86 @@
+.contact-form {
+  font-weight: 775;
+  float: right;
+  width: calc(100% - 200px);
+  height: 100%;
+  max-width: 1000px;
+  outline: 1px solid black;
+  top: 0px;
+  right: 0;
+  color: #d7e2ff;
+  display: column;
+}
+
+.questions {
+  margin-left: 10%;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.legend {
+  color: #d7e2ff;
+}
+
+.fs {
+  border-radius: 10px;
+  border-color: #6591ff;
+}
+
+.inputText {
+  width: 50%;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #6591ff;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 5%;
+  color: #d7e2ff;
+}
+
+.inputText option {
+  width: 50%;
+  height: 30px;
+  color: black;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #6591ff;
+  outline: none;
+}
+
+.inputText::placeholder {
+  color: #d7e2ff;
+}
+
+.summary textarea {
+  width: 89%;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #6591ff;
+  outline: none;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+.summary textarea::placeholder {
+  color: #d7e2ff;
+}
+
+#submit {
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #6591ff;
+  color: #6591ff;
+  border-radius: 15px;
+  font-size: 17.5px;
+  padding: 10px;
+  font-weight: 700;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+#submit:hover {
+  border: 2px solid #00154b;
+  color: #00154b;
+  background-color: #6591ff;
+  transition: .1s ease-in-out;
+}

@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <div className="hometitle">
-                <h3>Welcome To</h3>
+                <h3>Welcome to</h3>
                 <h2>RYANLKL'S </h2>
                 <h1>PORTFOLIO</h1>
                 <ul>
