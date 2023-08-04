@@ -4,7 +4,6 @@
   width: calc(100% - 200px);
   height: 100%;
   max-width: 1000px;
-  outline: 1px solid black;
   top: 0px;
   right: 0;
   color: #d7e2ff;
@@ -71,11 +70,12 @@
   border: 2px solid #6591ff;
   color: #6591ff;
   border-radius: 15px;
-  font-size: 17.5px;
+  font-size: 16px;
   padding: 10px;
   font-weight: 700;
   margin-left: 5%;
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 #submit:hover {
@@ -83,4 +83,12 @@
   color: #00154b;
   background-color: #6591ff;
   transition: .1s ease-in-out;
+}
+
+.submitted {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 5%;
+  color: #d7e2ff;
+  margin-top: -10px;
 }
