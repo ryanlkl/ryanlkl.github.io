@@ -3,7 +3,7 @@ import DaysofCode from './DaysofCode.jpeg'
 
 export default function Projects() {
     return (
-        <div className='projects'>
+        <section className='projects'>
             <h1>Projects</h1>
             <div>
                 <h2>100 Days of Code: Python</h2>
@@ -12,6 +12,10 @@ export default function Projects() {
                 <a href="https://twitter.com/rynlkl" target="_blank">Twitter</a><br />
                 <a href="https://github.com/ryanlkl/100-Days-Of-Code" target="_blank">Github repo</a>
             </div>
-        </div>
+            <div className="commandgames">
+                <h2>Command Line Games</h2>
+                <p>*Here I will insert buttons that allow the user to play python games using flask</p>
+            </div>
+        </section>
     )
 }

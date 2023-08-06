@@ -1,18 +1,20 @@
 .navbar {
     display: inline-block;
-    width: 200px;
-    height: 100%;
+    width: 30%;
+    min-width: 200px;
+    max-width: 200px;
+    height: 96.5%;
     text-decoration: none;
     background-color: #2b2b2b;
     padding-top: 25px;
-    position: sticky;
+    position: fixed;
 }
 
 #logo {
     text-decoration: none;
     width: 80%;
     font-size: 35px;
-    color:#d7e2ff;
+    color:#CCCCFF;
     font-weight: 800;
     margin-left: 10%;
 
@@ -35,7 +37,7 @@
 }
 
 #logo:hover strong {
-  --text-color: #d7e2ff;
+  --text-color: #CCCCFF;
 }
 
 #links {
@@ -59,4 +61,10 @@
 .links:hover {
   color: #6591ff;
   transition: 0.1s ease-in-out;
+}
+
+.logos{
+  max-height: 25px;
+  margin-left: 10%;
+  bottom: 0;
 }
