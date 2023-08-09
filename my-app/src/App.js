@@ -4,23 +4,25 @@ import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
 import NavBar from './Components/NavBar/NavBar';
 import AboutMe from './Components/About Me/aboutMe';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
     return (
         <>
+        <NavBar />
         <div className='container'>
-            <Router>
-                <NavBar id="navigation"/>
-                <Routes>
-                    <Route path='/' element={ <Home/> } />
-                    <Route path='/projects' element={ <Projects/> } />
-                    <Route path='/contact' element={ <Contact/> } />
-                    <Route path='/aboutme' element={ <AboutMe />} />
-                </Routes>
-            </Router>
+            <div>
+                <Home />
+            </div>
+            <div>
+                <Projects />
+            </div>
+            <div>
+                <AboutMe />
+            </div>
+            <div>
+                <Contact />
+            </div>
         </div>
-
         </>
     );
 }

@@ -4,7 +4,6 @@ import React, { useState, useRef } from 'react';
 
 export default function Contact() {
 
-    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [isEmpty, setIsEmpty] = useState(false);
     const form = useRef();
@@ -55,7 +54,7 @@ export default function Contact() {
         <div className='contact-form'>
             <form ref={form} onSubmit={handleSubmit} className="questions">
                 <fieldset className="fs">
-                    <legend class='legend'>Queries/Requests</legend>
+                    <legend className='legend'>Queries/Requests</legend>
 
                     <div className="firstname">
                         <input onChange={handleNameChange} value={inputName} placeholder=' Your Name...' className='inputText' type="text" name="name" />

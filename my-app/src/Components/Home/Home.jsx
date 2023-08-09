@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export default function Home() {
     return (
@@ -13,7 +13,14 @@ export default function Home() {
                     <li>Current BEng Mechanical Engineering Student</li>
                     <li>Aspiring Software Engineer</li>
                 </ul>
-                <Link className="links" to='contact'><button className='contact-button'>Contact Me</button></Link>
+                <Link
+                    className="links"
+                    to="contact-form"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                ><button className='contact-button' >Contact Me</button></Link>
             </div>
         </>
     )

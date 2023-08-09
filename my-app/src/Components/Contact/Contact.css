@@ -1,11 +1,9 @@
-.contact-form {
+.contact-form{
   font-weight: 775;
-  float: right;
   width: calc(100% - 200px);
   height: 100%;
   max-width: 1000px;
   top: 0px;
-  right: 0;
   color: #CCCCFF;
   display: column;
   margin-left: 27.5%;
